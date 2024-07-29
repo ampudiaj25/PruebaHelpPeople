@@ -1,0 +1,32 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar los archivos de log
+*.log
+
+# Ignorar archivos de entorno
+.env
+.env.*
+
+# Ignorar los archivos de configuración de IDE y editor
+.idea/
+.vscode/
+.DS_Store
+
+# Ignorar archivos temporales y de sistema
+*.tmp
+*.swp
+
+# Ignorar archivos de compilación y distribución
+dist/
+build/
+*.tgz
+
+# Ignorar archivos de prueba y cobertura
+coverage/
+*.lcov
+
+# Ignorar archivos generados por herramientas de despliegue
+*.pid
+*.seed
+*.pid.lock
